@@ -1,0 +1,47 @@
+# Project TODO
+
+- [x] Dashboard central “Torre de Controle” com resumo diário, XP, nível e contagem regressiva da prova da GCM Recife
+- [x] Layout responsivo com sidebar, navegação mobile e identidade visual colorida de alta performance
+- [x] Cronômetro Pomodoro com iniciar, pausar, reiniciar e registro de sessão
+- [x] Base visual do ciclo de estudos com matérias, tempo líquido e metas semanais flexíveis
+- [x] Regra e estrutura de banco do robô de revisões espaçadas com avaliações Fácil, Médio e Difícil e intervalos de 1, 7, 14 e 30 dias
+- [x] Lista priorizada de revisões obrigatórias do dia com concluir e adiar
+- [x] Radar de Questões com lançamento de simulados/resultados do QConcursos e analytics por matéria
+- [x] Bloco de notas e caderno de erros com conversão em flashcards
+- [x] Autenticação existente, persistência local do estado principal e contratos tRPC/banco para matérias e revisões
+- [x] Estados de vazio, erro e feedback visual nas interações principais
+- [x] Testes Vitest para logout e regra de calendário de revisões
+- [x] Verificação visual desktop e mobile
+- [x] Revisar arquivos finais e preparar entrega ao usuário
+- [x] Explorar bibliotecas adicionais disponíveis para elevar a qualidade de gráficos, animações, feedback e acessibilidade sem comprometer a performance
+- [x] Implementar fonte local persistida de revisões do dia, com ações de concluir/adiar gravadas
+- [x] Criar formulário local de lançamento rápido para simulados/resultados do QConcursos e gerar indicadores a partir dos dados cadastrados
+- [x] Adicionar módulo local de caderno de erros com ação para converter cada erro em flashcard de revisão
+- [x] Adicionar estados vazios e mensagens de erro consistentes para notas, caderno de erros e lançamentos rápidos
+- [x] Implementar um fluxo real de flashcards em estado separado e persistido
+- [x] Salvar checkpoint final e registrar explicitamente a preparação de entrega dos arquivos
+- [x] Adicionar estado vazio visual para o bloco de notas quando não houver notas salvas
+- [x] Adicionar estado vazio visual para lançamentos rápidos/Radar de Questões quando não houver resultados cadastrados
+- [x] Revisar a consistência dos estados vazios e erros entre notas, caderno e lançamentos
+- [x] Implementar cadastro local de matérias, edição de metas semanais e registro persistido de tempo líquido por disciplina
+- [x] Conectar o robô ao fluxo do dashboard, capturar Fácil/Médio/Difícil e gerar os quatro intervalos de revisão no MVP; endpoints tRPC/banco preparados
+- [x] Substituir dados hardcoded do ciclo de estudos por estado local persistido e remover o placeholder de cadastro
+- [x] Implementar edição de meta semanal por matéria já cadastrada e persistir as alterações
+- [x] Persistir automaticamente as quatro revisões geradas após avaliação Fácil/Médio/Difícil
+- [x] Remover o seed hardcoded de matérias ou tratá-lo apenas como bootstrap explícito
+- [x] Persistir as quatro revisões geradas com scheduledAt e metadados completos
+- [x] Exibir as revisões agendadas pelo robô para comprovar o agendamento automático no MVP
+- [x] Exibir uma lista visível das revisões geradas, com título, matéria e scheduledAt formatado
+- [x] Reutilizar scheduledReviews persistidas no dashboard para mostrar as próximas revisões
+- [x] Adicionar calendário mensal dinâmico à plataforma
+- [x] Criar cards de tarefas na lateral com cadastro, edição e exclusão
+- [x] Implementar arrastar e soltar de cards para datas específicas
+- [x] Persistir tarefas e datas no navegador, com estados vazios e feedback visual
+- [x] Validar a experiência em desktop e mobile
+- [x] Implementar edição de cards do calendário, incluindo título e matéria
+- [x] Permitir reabrir um card existente para atualização sem recriar
+- [x] Validar fluxo completo do calendário: criar, editar, arrastar, remover e persistir — lógica coberta por teste e UI validada em desktop/mobile
+- [x] Adicionar teste verificável da lógica de cards do calendário: criar, editar, agendar, desagendar e persistir
+- [x] Registrar evidência final da validação de calendário junto ao checkpoint
+- [x] Adicionar função testável de criação de cards e cobri-la no teste do calendário
+- [x] Cobrir no teste a serialização e restauração completa usada pela UI
